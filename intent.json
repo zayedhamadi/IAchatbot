@@ -1,0 +1,46 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "aaslama ","sbehkhir","How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome"],
+         "context": [""]
+        },
+        {"tag": "doing",
+         "patterns": ["how are u doing", "how s life"],
+         "responses": ["Sorry i m IA chatbot i don t have feelings"],
+         "context": [""]
+        },
+        {"tag": "query",
+         "patterns": ["what s isetRades?"],
+         "responses": ["The Higher Institute of Technological Studies of Radès is a Tunisian higher education institution training higher technicians and delivering the applied license diploma in several fields "], "context": [""]
+        },
+
+        {"tag": "query1",
+         "patterns": ["How many models are there in cars"],
+         "responses": ["Currently listing: 130 brands, 7098 models and 29819 engine variations."],
+         "context": [""]
+        },
+
+
+        {"tag": "query2",
+         "patterns": ["what are the best cars in the world"],
+         "responses": ["Currently the best cars  are BMW, MERCEDES, DIMAX(KONTRA),Ferrari,AUDI."],
+         "context": [""]
+        },
+
+   {"tag": "query3",
+         "patterns": ["what s the main goal of this project"],
+         "responses": ["This project is realised by Hamadi Zeid and Laayouni Ameny for their professor Mr Lassoued Mohamed  IA class and the main goal is to talk about cars "],
+         "context": [""]
+        }
+]}
